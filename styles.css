@@ -1,182 +1,188 @@
 * {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
-html{
+html {
   font-family: sans-serif;
-  list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
-header{
-  background-color: #1F2937;
+header {
+  background-color: #1f2937;
   height: 60px;
   width: 100%;
 }
-nav{
-width: 70%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: transparent;
-margin:auto
-}
-nav ul{
-  width: 50%;
+nav {
+  width: 70%;
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+  background-color: transparent;
+  margin: auto;
 }
-nav a{
+nav ul {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav a {
   font-size: 24px;
   font-weight: bold;
-  color:#F9FAF8
+  color: #f9faf8;
 }
-nav ul li a, #heroContainer h2{
+nav ul li a,
+#heroContainer h2 {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: lighter;
 }
-#hero{
-  background-color: #1F2937;
+#hero {
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
-#heroContainer{
-  margin:auto;
+#heroContainer {
+  margin: auto;
   display: flex;
   width: 70%;
   justify-content: space-between;
   align-items: center;
   height: 50vh;
 }
-#hero picture{
-  width:50%
+#hero picture {
+  width: 100%;
 }
-#heroContainer article{
+#heroContainer article {
   height: auto;
   text-align: left;
 }
-#heroContainer h1{
+#heroContainer h1 {
   font-size: 48px;
   font-weight: bolder;
-  color:#F9FAF8;
+  color: #f9faf8;
 }
 #heroContainer button {
   background-color: #3882f6;
   border-radius: 10px;
   font-size: 18px;
-  padding:10px 30px;
+  padding: 10px 30px;
   font-weight: bold;
-  color:#F9FAF8;
-  border: #F9FAF8 2px solid;
+  color: #f9faf8;
+  border: #f9faf8 2px solid;
 }
-#heroContainer img{
+#heroContainer img {
   width: 100%;
 }
-#infoContainer{
+#infoContainer {
   background-color: white;
   width: 100%;
-  height:50vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-#infoContainer h2{
+#infoContainer h2 {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
-  color: #1F2937;
+  color: #1f2937;
   padding: 50px;
 }
-#cardContainer{
+#cardContainer {
   width: 60%;
   height: max-content;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.card{
+.card {
   width: 20%;
   text-align: center;
 }
-.card img{
+.card img {
   border: #3882f6 solid 5px;
   border-radius: 10%;
   width: 100%;
 }
-.card p{
+.card p {
   color: grey;
-  font-size:18px;
+  font-size: 18px;
 }
-#quote{
+#quote {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   height: 50vh;
 }
-#quoteContainer{
-  width:60%;
+#quoteContainer {
+  width: 60%;
 }
-#quoted{
-text-align: left;
-width:100%;
-color: #1F2937;
-font-weight: lighter;
-font-style: italic;
-font-size: 36px;
+#quoted {
+  text-align: left;
+  width: 100%;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
 }
-#author{
+#author {
   text-align: right;
   font-weight: bold;
   font-size: 20px;
-  color: #1F2937;
+  color: #1f2937;
 }
 
-#callToAction{
-  width:100%;
+#callToAction {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
 }
-#callContainer{
-background-color: #3882f6;
-border-radius: 10px;
-display: flex;
-justify-content: space-around;
-align-content: center;
-width: 70%;
+#callContainer {
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 70%;
+  padding: 2rem;
+  margin: 3rem 0;
 }
-#call{
+#call {
   text-align: start;
 }
-#call h4, #callContainer button{
-  color:#F9FAF8;
+#call h4,
+#callContainer button {
+  color: #f9faf8;
   font-size: 30px;
   font-weight: bold;
 }
-#call p{
+#call p {
   color: #e5e7eb;
   font-weight: lighter;
   font-size: 18px;
 }
-#callContainer button{
-background-color: transparent;
-border-radius: 10%;
-border:1px solid #F9FAF8;
-color: #e5e7eb;
-font-size: 18px;
+#callContainer button {
+  background-color: transparent;
+  border-radius: 10%;
+  border: 1px solid #f9faf8;
+  font-size: 18px !important;
+  padding: 0 1rem;
 }
-footer{
+#callContainer a {
+  color: #e5e7eb;
+}
+footer {
   width: 100%;
   text-align: center;
   padding: 5vh 0;
-  background-color: #1F2937;
+  background-color: #1f2937;
 }
