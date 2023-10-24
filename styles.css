@@ -4,7 +4,7 @@
   padding: 0;
 }
 html{
-  font-family:Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 a{
   text-decoration: none;
@@ -23,7 +23,7 @@ background-color: transparent;
 margin:auto
 }
 nav ul{
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
 
@@ -64,14 +64,14 @@ nav ul li a, #heroContainer h2{
 }
 #heroContainer button {
   background-color: #3882f6;
-  border-radius: 10%;
+  border-radius: 10px;
   font-size: 20px;
   padding:10px 30px;
   font-weight: bold;
+  color:#F9FAF8;
 }
 #heroContainer img{
-  width: 50%;
-  height: 100%;
+  width: 100%;
 }
 #infoContainer{
   background-color: white;
@@ -152,9 +152,8 @@ height: 50%;
 }
 #call{
   text-align: start;
-  width: fit-content;
 }
-#call h4 #callContainer button{
+#call h4, #callContainer button{
   color:#F9FAF8;
   font-size: 30px;
   font-weight: bold;
@@ -173,4 +172,5 @@ footer{
   width: 100%;
   text-align: center;
   padding: 8vh 0;
+  background-color: #1F2937;
 }
