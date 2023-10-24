@@ -5,6 +5,7 @@
 }
 html{
   font-family: sans-serif;
+  list-style: none;
 }
 a{
   text-decoration: none;
@@ -53,6 +54,9 @@ nav ul li a, #heroContainer h2{
   align-items: center;
   height: 50vh;
 }
+#hero picture{
+  width:50%
+}
 #heroContainer article{
   height: auto;
   text-align: left;
@@ -65,10 +69,11 @@ nav ul li a, #heroContainer h2{
 #heroContainer button {
   background-color: #3882f6;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
   padding:10px 30px;
   font-weight: bold;
   color:#F9FAF8;
+  border: #F9FAF8 2px solid;
 }
 #heroContainer img{
   width: 100%;
@@ -140,7 +145,6 @@ font-size: 36px;
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 40vh;
 }
 #callContainer{
 background-color: #3882f6;
@@ -148,7 +152,7 @@ border-radius: 10px;
 display: flex;
 justify-content: space-around;
 align-content: center;
-height: 50%;
+width: 70%;
 }
 #call{
   text-align: start;
@@ -166,11 +170,13 @@ height: 50%;
 #callContainer button{
 background-color: transparent;
 border-radius: 10%;
-border:5px solid #F9FAF8
+border:1px solid #F9FAF8;
+color: #e5e7eb;
+font-size: 18px;
 }
 footer{
   width: 100%;
   text-align: center;
-  padding: 8vh 0;
+  padding: 5vh 0;
   background-color: #1F2937;
 }
